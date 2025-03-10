@@ -84,4 +84,3 @@ if __name__ == '__main__':
 
     print(Teacher.homework_done[oop_hw])
     Teacher.reset_results()
-
