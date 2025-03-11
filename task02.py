@@ -10,7 +10,7 @@ from typing import Sequence
 
 def check_fibonacci(data: Sequence[int]) -> bool:
     if len(data) < 2:
-        return False
+        return True # Думаю лучше тут сделать True. 1 или 2 элемента по умолчанию являются Фибоначчи, так как нет третьего.
     
     for i in range(2, len(data)):
         if data[i] != data[i - 1] + data[i - 2]:
